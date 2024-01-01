@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Seymour+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
 
 
 body {
@@ -17,13 +19,23 @@ canvas {
     z-index: -1;
 }
 
+.wish{
+    font-family: 'Sevillana';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4pc;
+    margin-bottom: 0;
+    margin-top: 10%;
+}
+
 .happy{
     font-family: 'Press Start 2P', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     /* height: 100vh; */
-    margin-top: 20%;
+    margin-top: 0.7%;
     margin-bottom: 0;
     padding: 0;
     font-size: 5pc;
@@ -34,7 +46,7 @@ canvas {
 .sub{
     font-family: 'Press Start 2P', sans-serif;
     display: flex;
-    margin-top: 10px;
+    margin-top: 5px;
     padding-top: 0;
     align-items: center;
     justify-content: center;
@@ -52,3 +64,18 @@ canvas {
         opacity: 1; 
     }
 }
+
+.nav-pills{
+    margin-top: 15px;
+}
+
+header {
+    border-bottom: 0.01px solid; /* Change 'red' to your desired color */
+    padding: 10px 0; /* Add padding to separate the border from the content */
+}
+
+.nav, .d-block{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
