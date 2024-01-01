@@ -27,6 +27,8 @@ canvas {
     font-size: 4pc;
     margin-bottom: 0;
     margin-top: 10%;
+    opacity: 1;
+    animation: fadeIn 3s ease-in-out forwards;
 }
 
 .happy{
